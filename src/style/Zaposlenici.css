@@ -1,0 +1,17 @@
+.name-box {
+  display: flex;
+}
+.box-img img {
+  width: 48px;
+}
+.box-info {
+  display: flex;
+}
+.box-info p {
+  padding-left: 10px;
+}
+.box-info img {
+  width: 16px;
+  height: 16px;
+  padding-top: 4px;
+}

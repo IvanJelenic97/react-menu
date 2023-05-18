@@ -1,0 +1,43 @@
+.buttons-box {
+  margin: 0 25px;
+  width: 560px;
+  transform: 0;
+  padding-bottom: 50px;
+}
+.buttons {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 400px;
+}
+
+.back-step {
+  background-color: #333;
+  width: 191px;
+  height: 32px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+}
+.save-step {
+  background-color: #ffc436;
+  width: 183px;
+  height: 32px;
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  margin-left: 40px;
+}
+.end-step {
+  background-color: #2acb7e;
+  width: 93px;
+  height: 32px;
+  color: #000;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+}

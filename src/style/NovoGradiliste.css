@@ -1,0 +1,266 @@
+.top-nav1 {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffc436;
+  height: 48px;
+}
+
+.logo1 {
+  display: flex;
+  align-items: center;
+  margin-left: 35px;
+}
+
+.logo1 img {
+  width: 111px;
+  height: 30px;
+}
+.icon1 {
+  display: flex;
+}
+.icon1 img {
+  height: 20px;
+  width: 18px;
+  padding-right: 20px;
+}
+.name img {
+  width: 9px;
+  height: 5px;
+}
+.name {
+  padding-right: 40px;
+}
+.profile-dropdown {
+  position: relative;
+}
+
+.dropdown-menu {
+  position: absolute;
+  top: 100%;
+  left: 0;
+  z-index: 1;
+  background-color: white;
+  box-shadow: 0px 4px 4px 2px #3333334d;
+  height: 176px;
+  margin-top: 15px;
+  width: 144px;
+  list-style: none;
+  text-align: left;
+}
+.dropdown-menu li {
+  padding: 5px;
+  cursor: pointer;
+}
+
+.dropdown-menu li:hover {
+  background-color: #ffe7ae;
+}
+.route1 {
+  display: flex;
+  justify-content: space-between;
+  width: 900px;
+  cursor: pointer;
+}
+.route1 p {
+  font-size: 14px;
+  font-weight: 700;
+}
+.route {
+  padding-left: 25px;
+  padding-top: 20px;
+}
+.number {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  border: 1px solid #ffc436;
+  text-align: center;
+  margin-right: 4px;
+  border-radius: 360px;
+}
+
+.route1 p:hover > .number {
+  background-color: #ffc436;
+  color: #333333;
+}
+.route1 p:hover {
+  color: #ffc436;
+}
+
+.h {
+  margin-top: 24px;
+  border: none;
+  box-shadow: 0px 4px 4px 0px #00000040;
+  height: 4px;
+}
+.hr {
+  border: none;
+  border-top: 1px solid #ffc436;
+  width: 90px;
+  margin: 12px;
+}
+.input-box {
+  margin: 20px 25px;
+}
+.input_box1 {
+  padding-top: 24px;
+  width: 422px;
+}
+.inputs p {
+  margin-bottom: 4px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.inputs input {
+  margin-bottom: 16px;
+  font-size: 14px;
+  width: 422px;
+  height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+.input_box2 {
+  width: 422px;
+}
+.inputs1 {
+  display: flex;
+}
+
+.inputs1 p {
+  font-size: 14px;
+  font-weight: 700;
+}
+.inputs1 input {
+  font-size: 14px;
+  text-align: center;
+}
+
+.first1 {
+  margin-left: 24px;
+}
+.first1 input {
+  width: 199px;
+  padding: 0;
+}
+.first input {
+  width: 199px;
+  padding: 0;
+}
+
+.dotted-box {
+  width: 416px;
+  border: dotted 4px #7c7777;
+  border-radius: 8px;
+  height: 152px;
+  text-align: center;
+  margin-bottom: 14px;
+}
+.dotted-box p {
+  font-weight: 400;
+  padding-top: 8px;
+}
+.dotted-box span {
+  text-transform: uppercase;
+  text-decoration: underline;
+}
+
+#id {
+  padding-top: 10px;
+}
+.input_box3 {
+  width: 422px;
+}
+.inputs2 {
+  padding-top: 16px;
+  font-weight: 700;
+}
+.inputs2 p {
+  margin-bottom: 5px;
+  font-size: 14px;
+}
+.upload-button {
+  background-color: #333;
+  width: 422px;
+  height: 24px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+}
+.inputs3 p {
+  margin-bottom: 4px;
+  padding-top: 16px;
+  font-size: 14px;
+  font-weight: 700;
+}
+.inputs3 input {
+  margin-bottom: 16px;
+  font-size: 14px;
+  width: 422px;
+  height: 34px;
+  border: 1px solid #ccc;
+  border-radius: 8px;
+}
+#last {
+  height: 54px;
+}
+#last::placeholder {
+  transform: translateY(-12px);
+}
+
+.inputs4 {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 40px;
+}
+.back {
+  background-color: #333;
+  width: 98px;
+  height: 32px;
+  color: #fff;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+.save {
+  background-color: #ffc436;
+  width: 98px;
+  height: 32px;
+  color: #333;
+  font-size: 12px;
+  font-weight: 700;
+  text-transform: uppercase;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.backup-img {
+  border-radius: 360px;
+  border: 2px solid #ffc436;
+  width: 48px;
+  height: 48px;
+  margin-top: 20px;
+}
+.backup {
+  padding-left: 180px;
+}
+.backup-img img {
+  margin-top: 11.5px;
+}
+.MuiFormControl-root,
+.MuiTextField-root {
+  width: 200px;
+}
+
+.css-o9k5xi-MuiInputBase-root-MuiOutlinedInput-root {
+  height: 30px !important;
+}
+.css-i4bv87-MuiSvgIcon-root {
+  width: 16px !important;
+}
