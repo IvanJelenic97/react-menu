@@ -1,3 +1,10 @@
+.hour {
+  color: #ffc436;
+  border-bottom: solid #ffc436;
+  border-width: 4px;
+  border-bottom-style: solid;
+  text-align: center;
+}
 .button-task1 {
   margin-left: 15px;
   background-color: #ffc436;

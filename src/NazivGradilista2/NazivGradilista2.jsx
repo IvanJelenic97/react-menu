@@ -1,16 +1,15 @@
 import React from "react";
 import logo from "../images/logo.png";
-import "../naziv-gradilista/NazivGradilista.css";
+import "../NazivGradilista2/NazivGradilista2.css";
 import notifications from "../images/notifications.png";
 import Ellipse from "../images/Ellipse.png";
-import building from "../images/building1.png";
 import ProfileDropdown from "../pages/ProfileDropdown";
 import edit from "../images/edit.png";
 import archive from "../images/archive.png";
 import del from "../images/del.png";
 import arrow from "../images/arrow.png";
 
-const NazivGradilista = () => {
+const NazivGradilista2 = () => {
   const letters = [..."abcdefghijklmnoprstuvz"];
   const employees = Array.from(
     { length: 25 },
@@ -67,7 +66,7 @@ const NazivGradilista = () => {
             </button>
           </div>
           <div className="top-menu">
-            <p className="opcenito">Općenito</p>
+            <p>Općenito</p>
             <p onClick={() => (window.location.href = "/RadniZadaci")}>
               Radni zadaci
             </p>
@@ -82,12 +81,9 @@ const NazivGradilista = () => {
           </div>
         </div>
         <hr className="h1" />
-        <div className="content-container">
+        <div className="content-container1">
           <div className="first-box">
             <div className="img-place">
-              <div className="img-place-img">
-                <img src={building} alt="building" />
-              </div>
               <div className="img-place-txt">
                 <p id="info">Osnovne informacije</p>
                 <p>
@@ -147,11 +143,11 @@ const NazivGradilista = () => {
         </div>
         <div className="des">
           <p id="info1">Opis projekta</p>
-          <p id="info2">Obiteljska stambena zgrada</p>
+          <p>Obiteljska stambena zgrada</p>
         </div>
       </div>
     </div>
   );
 };
 
-export default NazivGradilista;
+export default NazivGradilista2;

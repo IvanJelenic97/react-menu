@@ -8,13 +8,9 @@ import ProfileDropdown from "../pages/ProfileDropdown";
 import Search from "../images/search.png";
 import gridView from "../images/grid_view.png";
 import tableChart from "../images/table_chart.png";
-import employee1 from "../images/employee1.png";
-import employee2 from "../images/employee2.png";
-import info from "../images/info.png";
-import email from "../images/email.png";
-import call from "../images/call.png";
-import employee from "../images/employee.png";
-import CustomTable from "./CustomTable";
+
+import TablePagination from "@mui/material/TablePagination";
+
 import "../style/Zaposlenici.css";
 
 const Zaposlenici = () => {
@@ -65,6 +61,7 @@ const Zaposlenici = () => {
     { length: 16 },
     (_, index) => employees[index % employees.length]
   );
+
   return (
     <div>
       <nav className="top-nav1">
@@ -126,7 +123,10 @@ const Zaposlenici = () => {
           </div>
         </div>
       </div>
-      <div className="grid-container">
+      <div
+        className="grid-container"
+        onClick={() => (window.location.href = "/EmployeeInfo")}
+      >
         {repeatedEmployees.map((employee, index) => (
           <EmployeeBox
             key={index}

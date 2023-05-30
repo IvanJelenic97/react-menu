@@ -76,7 +76,10 @@ const RadniZadaci = () => {
             <p onClick={() => (window.location.href = "/naziv-gradilista")}>
               Općenito
             </p>
-            <p onClick={() => (window.location.href = "/RadniZadaci")}>
+            <p
+              className="works"
+              onClick={() => (window.location.href = "/RadniZadaci")}
+            >
               Radni zadaci
             </p>
             <p onClick={() => (window.location.href = "/Nacrti")}>Nacrti</p>
@@ -171,13 +174,15 @@ const RadniZadaci = () => {
             <div className="deadline">
               <img src={person} alt="" />
               <p>
-                Supervizor: <span>Matej Pleškov</span>
+                <span className="supervisor">Supervizor:</span>
+                <span className="name-supervisor">Matej Pleškov</span>
               </p>
             </div>
             <div className="deadline">
               <img src={event} alt="" />
               <p>
-                Rok zadataka: <span>: 14.10.2022</span>
+                <span className="term">Rok zadatka:</span>
+                <span className="term1">14.10.2022</span>
               </p>
             </div>
           </div>
@@ -200,13 +205,15 @@ const RadniZadaci = () => {
             <div className="deadline">
               <img src={person} alt="" />
               <p>
-                Supervizor: <span>Matej Pleškov</span>
+                <span className="supervisor">Supervizor:</span>
+                <span className="name-supervisor">Matej Pleškov</span>
               </p>
             </div>
             <div className="deadline">
               <img src={event} alt="" />
               <p>
-                Rok zadataka: <span>: 14.10.2022</span>
+                <span className="term">Rok zadatka:</span>
+                <span className="term1">14.10.2022</span>
               </p>
             </div>
           </div>
@@ -228,13 +235,15 @@ const RadniZadaci = () => {
             <div className="deadline">
               <img src={person} alt="" />
               <p>
-                Supervizor: <span>Matej Pleškov</span>
+                <span className="supervisor">Supervizor:</span>
+                <span className="name-supervisor">Matej Pleškov</span>
               </p>
             </div>
             <div className="deadline">
               <img src={event} alt="" />
               <p>
-                Rok zadataka: <span>: 14.10.2022</span>
+                <span className="term">Rok zadatka:</span>
+                <span className="term1">14.10.2022</span>
               </p>
             </div>
           </div>
@@ -256,13 +265,15 @@ const RadniZadaci = () => {
             <div className="deadline">
               <img src={person} alt="" />
               <p>
-                Supervizor: <span>Matej Pleškov</span>
+                <span className="supervisor">Supervizor:</span>
+                <span className="name-supervisor">Matej Pleškov</span>
               </p>
             </div>
             <div className="deadline">
               <img src={event} alt="" />
               <p>
-                Rok zadataka: <span>: 14.10.2022</span>
+                <span className="term">Rok zadatka:</span>
+                <span className="term1">14.10.2022</span>
               </p>
             </div>
           </div>
@@ -284,13 +295,15 @@ const RadniZadaci = () => {
             <div className="deadline">
               <img src={person} alt="" />
               <p>
-                Supervizor: <span>Matej Pleškov</span>
+                <span className="supervisor">Supervizor:</span>
+                <span className="name-supervisor">Matej Pleškov</span>
               </p>
             </div>
             <div className="deadline">
               <img src={event} alt="" />
               <p>
-                Rok zadataka: <span>: 14.10.2022</span>
+                <span className="term">Rok zadatka:</span>
+                <span className="term1">14.10.2022</span>
               </p>
             </div>
           </div>

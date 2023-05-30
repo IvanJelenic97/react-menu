@@ -13,6 +13,13 @@
   width: 12px;
   height: 12px;
 }
+.radni {
+  color: #ffc436;
+  border-bottom: solid #ffc436;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  text-align: center;
+}
 .back-part p {
   text-transform: uppercase;
   font-size: 12px;
@@ -93,30 +100,17 @@
   font-size: 16px;
   padding-top: 10px;
   transform: translateY(50%);
-  color: #333333;
   cursor: pointer;
 }
 
-.top-menu p:first-child {
+.opcenito {
   color: #ffc436;
   border-bottom: solid #ffc436;
   border-bottom-width: 4px;
   border-bottom-style: solid;
-  width: 118px;
   text-align: center;
-  margin-left: 2px;
 }
-.top-menu1 {
-  display: flex;
-  justify-content: space-between;
-  margin-right: 75px;
-  transform: translateY(110%);
-}
-.top-menu1 p {
-  text-transform: uppercase;
-  font-size: 16px;
-  cursor: pointer;
-}
+
 .img-place {
   display: flex;
   justify-content: space-between;
@@ -195,4 +189,7 @@
 .des p {
   font-weight: 700;
   font-size: 14px;
+}
+#info2 {
+  color: #333333;
 }

@@ -8,7 +8,7 @@ import Email from "../images/alternate_email.png";
 
 const EmployeeBox = ({ name, position, department, phone, email, image }) => {
   return (
-    <div className="employee-box">
+    <div className="employee-box employee-box1">
       <div className="name-box">
         <div className="box-img">
           <img src={employee1} alt="employee"></img>

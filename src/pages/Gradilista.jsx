@@ -122,7 +122,10 @@ const Gradilista = () => {
                   </p>
                 </div>
               </div>
-              <div className="grid-item grid-item-image my-grid-item">
+              <div
+                className="grid-item grid-item-image my-grid-item"
+                onClick={() => (window.location.href = "/NazivGradilista2")}
+              >
                 <div className="house">
                   <img src={houseSiding} alt="houseSiding" />
                 </div>

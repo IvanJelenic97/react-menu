@@ -19,11 +19,8 @@ import groundPlan from "../images/groundPlan1.jpg";
 import locationOn from "../images/locationOn.png";
 
 const Nacrti = () => {
-  const handleBackClick = () => {
-    window.history.back();
-  };
   const [scale, setScale] = useState(1);
-  const [initialSize] = useState({ width: 700, height: 400 });
+
   const handleZoomInClick = () => {
     setScale((scale) => scale + 0.1);
   };

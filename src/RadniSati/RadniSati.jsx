@@ -1,3 +1,4 @@
+import { Link } from "react-router-dom";
 import "../RadniSati/RadniSati.css";
 import edit from "../images/edit.png";
 import archive from "../images/archive.png";
@@ -12,10 +13,8 @@ import rightArrow from "../images/right-arrow.png";
 import leftArrow from "../images/left-arrow.png";
 import calendarMonth from "../images/calendar_month.png";
 import HoursTable from "../HoursTable/HoursTable";
+
 const RadniSati = () => {
-  const handleBackClick = () => {
-    window.history.back();
-  };
   return (
     <div>
       <nav className="top-nav1">
@@ -32,8 +31,10 @@ const RadniSati = () => {
         <div className="header-container">
           <div className="top-header">
             <div className="back-part">
-              <img src={arrow} alt="back" className="img-arrow" />
-              <p onClick={handleBackClick}>povratak na sva gradilista</p>
+              <Link to="/gradilista">
+                <img src={arrow} alt="back" className="img-arrow" />
+                <p>povratak na sva gradilista</p>
+              </Link>
             </div>
             <div className="img-part" style={{ paddingLeft: "24px" }}>
               <span className="img-bg" style={{ marginLeft: "24px" }}>
@@ -67,7 +68,10 @@ const RadniSati = () => {
             <p onClick={() => (window.location.href = "/Dokumenti")}>
               Dokumenti
             </p>
-            <p onClick={() => (window.location.href = "/RadniSati")}>
+            <p
+              className="hour"
+              onClick={() => (window.location.href = "/RadniSati")}
+            >
               Radni sati
             </p>
             <p>Materijalni troškovi</p>

@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import logo from "../images/logo.png";
 import edit from "../images/edit.png";
 import archive from "../images/archive.png";
@@ -12,9 +13,6 @@ import "../Dokumenti/Dokumenti.css";
 import DocsTable from "../DocsTable/DocsTable";
 
 const Dokumenti = () => {
-  const handleBackClick = () => {
-    window.history.back();
-  };
   return (
     <div>
       <nav className="top-nav1">
@@ -31,8 +29,10 @@ const Dokumenti = () => {
         <div className="header-container">
           <div className="top-header">
             <div className="back-part">
-              <img src={arrow} alt="back" className="img-arrow" />
-              <p onClick={handleBackClick}>povratak na sva gradilista</p>
+              <Link to="/gradilista">
+                <img src={arrow} alt="back" className="img-arrow" />
+                <p>povratak na sva gradilista</p>
+              </Link>
             </div>
             <div className="img-part" style={{ paddingLeft: "24px" }}>
               <span className="img-bg" style={{ marginLeft: "24px" }}>
@@ -55,13 +55,16 @@ const Dokumenti = () => {
               <span>Aktivno</span>
             </button>
           </div>
-          <div className="top-menu">
+          <div className="top-menu3">
             <p>Općenito</p>
             <p onClick={() => (window.location.href = "/RadniZadaci")}>
               Radni zadaci
             </p>
             <p onClick={() => (window.location.href = "/Nacrti")}>Nacrti</p>
-            <p onClick={() => (window.location.href = "/Dokumenti")}>
+            <p
+              className="dokumenti"
+              onClick={() => (window.location.href = "/Dokumenti")}
+            >
               Dokumenti
             </p>
             <p onClick={() => (window.location.href = "/RadniSati")}>

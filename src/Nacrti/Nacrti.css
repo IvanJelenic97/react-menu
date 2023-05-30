@@ -7,6 +7,13 @@
   left: 50%;
   transform: translate(-50%, -50%);
 }
+.nacrti {
+  color: #ffc436;
+  border-bottom: solid #ffc436;
+  border-bottom-width: 4px;
+  border-bottom-style: solid;
+  text-align: center;
+}
 .top-menu2 {
   display: flex;
   justify-content: space-between;
@@ -62,7 +69,7 @@
 .project1 {
   padding-top: 65px;
   transform: translateX(-15%);
-  width: 960px;
+  width: 900px;
   height: 634px;
 }
 .zoom-img-container {

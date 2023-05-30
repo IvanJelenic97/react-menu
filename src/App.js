@@ -17,10 +17,12 @@ import NovoGradiliste from "./pages/NovoGradiliste";
 import Voditelji from "./pages/Voditelji";
 import Dokumentacija from "./pages/Dokumentacija";
 import NazivGradilista from "./naziv-gradilista/NazivGradilista";
+import NazivGradilista2 from "./NazivGradilista2/NazivGradilista2";
 import RadniZadaci from "./RadniZadaci/RadniZadaci";
 import RadniSati from "./RadniSati/RadniSati";
 import Nacrti from "./Nacrti/Nacrti";
 import Dokumenti from "./Dokumenti/Dokumenti";
+import EmployeeInfo from "./EmployeeInfo/EmployeeInfo";
 
 import "./App.css";
 
@@ -37,6 +39,7 @@ const App = () => {
           <Route path="gradilista" element={<Gradilista />} />
           <Route path="/novo-gradiliste" element={<NovoGradiliste />} />
           <Route path="/naziv-gradilista" element={<NazivGradilista />} />
+          <Route path="/NazivGradilista2" element={<NazivGradilista2 />} />
           <Route path="/RadniZadaci" element={<RadniZadaci />} />
           <Route path="/NoviZadatak" element={<NoviZadatak />} />
           <Route path="/Zadatak" element={<Zadatak />} />
@@ -48,6 +51,7 @@ const App = () => {
           <Route path="financije" element={<Financije />} />
           <Route path="tvrtka" element={<Tvrtka />} />
           <Route path="Zaposlenici" element={<Zaposlenici />} />
+          <Route path="EmployeeInfo" element={<EmployeeInfo />} />
           <Route path="izvjestaji" element={<Izvjestaji />} />
           <Route path="mojaFirma" element={<MojaFirma />} />
         </Routes>
